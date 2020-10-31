@@ -12,9 +12,9 @@ webdriver.get('https://www.instagram.com/accounts/login/?source=auth_switcher')
 sleep(3)
 
 username = webdriver.find_element_by_name('username')
-username.send_keys('atharva_35')
+username.send_keys('YOUR ID')
 password = webdriver.find_element_by_name('password')
-password.send_keys('abadmomschristmas')
+password.send_keys('YOUR PASSWORD')
 
 button_login = webdriver.find_element_by_css_selector('#react-root > section > main > div > article > div > div:nth-child(1) > div > form > div:nth-child(4) > button')
 button_login.click()
